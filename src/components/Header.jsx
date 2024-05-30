@@ -33,7 +33,7 @@ export default function Header() {
 
   return (
     <header className="h-auto flex justify-between items-center">
-      <a href="/">
+      <a href="/dictionary-page/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="26"
