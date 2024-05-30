@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-container {
+  display: grid;
+  grid-template-rows: 0fr;
+}
+
+.dropdown-container > ul {
+  overflow: hidden;
+}
+
+.dropdown-active {
+  grid-template-rows: 1fr;
+}
+
+/* grid is not applied on tailwind css....*/
